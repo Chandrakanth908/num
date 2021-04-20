@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="./numb.css" >
+    </head>
+    <body class="per">
+        <div class="main">
+            <form onsubmit="return EvenNums()">
+                <div class="cad">
+                    <h2>Even n Odd Numbers In a Range.....</h2>
+                </div>
+                <div class="cad-1">
+                    <input type="number" id="start" placeholder="Lower Limit">
+                </div>
+                <br>
+                <div class="cad-1">
+                    <input type="number" id="end" placeholder=" Higher Limit">
+                </div>
+                <br>
+                <div class="cad-2">
+                    <input type="button" onclick="EvenNums()" value=" Even Numbers">
+                  </div><br>
+                  <div class="cad-2">
+                    <input type="button" onclick="OddNums()" value=" Odd Numbers">
+                  </div>
+                  <br>
+                  <div id="result"></div>
+
+                  <script src="./numb.js"></script>
+            </form>
+        </div>
+    </body>
+</html>

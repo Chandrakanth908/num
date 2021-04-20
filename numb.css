@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+  }
+
+  
+               html{
+                  padding: 0;
+       margin: 0;
+        height: 100%;
+      
+               }
+                body {
+       padding: 0;
+       margin: 0;
+        height: 100%;
+      
+        }
+ .main{
+                max-width: 400px;
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                padding: 50px;
+                color:rgb(252, 4, 4);
+                } 
+            .cad{
+                margin-bottom: 20px;
+                border-bottom: 3px solid rgb(44, 243, 26);
+                width: 300px;
+            }
+            .cad-1{
+                
+                border-radius: 20px;
+                
+
+            }
+            .cad-2 :hover{
+                box-shadow: 0 12px 20px rgba(175, 250, 2, 0.89);
+                background-color: rgb(207, 205, 47);
+                color: white;
+            }
+            .per{
+                background-image: url(./background-from-numbers-vector-3674836.jpg);
+                background-repeat: no-repeat; 
+                background-size: 100%;
+                background-size: cover;
+                background-position: center;
+                height: 100%;
+
+            }
